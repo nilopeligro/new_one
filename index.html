@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Dropdown</title>
+        <link rel="stylesheet" href="./css/main.css">
+      </head>      
+<body>
+    <header>
+        <div class="topnav" id="myTopnav">
+            <div class="branding">
+                <img src="./img/branding.png" height="30px" width="200px" alt="brand">
+            </div>
+            <div class="topnav-right">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <div class="dropdown">
+                    <button class="dropbtn">
+                        Blog
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Blog 1</a>
+                        <a href="#">Blog 2</a>
+                        <a href="#">Blog 3</a>
+                        <a href="#">Blog 4</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#">Services</a>
+            <a href="javascipt:void(0);" class="icon" onClick="myFunction()">&#9776;</a>
+        </div>
+    </header>
+    <main>
+        <p id="sample"></p>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
