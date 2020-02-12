@@ -9,6 +9,7 @@ body {
 }
 .branding img {
     float: left;
+    margin-top: 10px;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
