@@ -50,3 +50,9 @@ function myFunction() {
     //prevent flash submit
     e.preventDefault();
   }
+
+  //fetch bookmarks
+  function fetchBookmarks() {
+    //get bookmarks from localstorage
+    var bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
+  }
