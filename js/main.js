@@ -95,8 +95,8 @@ function myFunction() {
 
       bookmarksResults.innerHTML += '<div>'+
                                     '<h3>'+name+
-                                      '<a target="_blank" href="'+url+'"> Visit</a>'+
-                                      '<a onclick="deleteBookmark(\''+url+'\')"href="#"> Delete</a>'
+                                      '<button><a target="_blank" href="'+url+'">Visit</a></button>'+
+                                      '<button><a onclick="deleteBookmark(\''+url+'\')"href="#">Delete</a></button>'
                                     '</h3>'+
                                     '</div>'
     }
@@ -126,3 +126,4 @@ function addhttp(url) {
   }
   return url;
 }
+
