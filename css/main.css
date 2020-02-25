@@ -131,3 +131,8 @@ main {
     text-align: left;
     }
 }
+
+/* forms */
+#inputs {
+    display: flex;
+}
